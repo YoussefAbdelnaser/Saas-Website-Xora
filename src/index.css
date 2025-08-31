@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap")
 layer(base);
 
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-p1: #2ef2ff;
@@ -18,18 +18,14 @@ layer(base);
   --color-black-100: #05091d;
   --color-black: #000000;
 
-  --shadow-100:
-    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
+  --shadow-100: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
     inset 0px 3px 6px #1959ad;
-  --shadow-200:
-    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
+  --shadow-200: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
     inset 0px 4px 10px #3391ff;
-  --shadow-300:
-    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
+  --shadow-300: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25),
     inset 0px 3px 6px #1959ad;
   --shadow-400: inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05);
-  --shadow-500:
-    0px 16px 24px rgba(0, 0, 0, 0.25), 0px -14px 48px rgba(40, 51, 111, 0.7);
+  --shadow-500: 0px 16px 24px rgba(0, 0, 0, 0.25), 0px -14px 48px rgba(40, 51, 111, 0.7);
 
   --font-inter: Inter, sans-serif;
   --font-poppins: Poppins, sans-serif;
@@ -278,7 +274,7 @@ layer(base);
 @utility nav-active {
   /* END of Common */
   /* START of Header */
-  @apply text-p3;
+  @apply !text-p3;
 
   /*  END of Footer*/
 }
